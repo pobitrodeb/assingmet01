@@ -1,0 +1,206 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: seashell;
+}
+.container-fluid{
+    width: 100%;
+}
+.container{
+    width: 1280px;
+    margin: 0px auto;
+   
+}
+p {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 5px 0px;
+    line-height: 25px;
+}
+
+button{
+    margin: 8px 0px;
+    padding: 12px 35px;
+    background-color: #ff5959;
+    color: white;
+    border: 1px solid red;
+    border-radius: 8px;
+
+}
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+.documention-button{
+    padding: 15px 75px;
+}
+button:hover{
+    color: #0f0f0f;
+    background-color: #ffad5a;
+}
+/* ################## End Defult CSS #############  */
+.hero-section{
+   margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-container{
+    width: 50%;
+}
+.hero-container h1{
+    font-size: 55px;
+    font-weight: 800;
+    padding-left: 24px;
+    border-left: 4px solid red;
+}
+.hero-container h1 span{
+    color: #ffad5a;
+}
+.hero-photo{
+    height: 400px;
+    width: 550px;
+    
+}
+.hero-photo img{
+    width: 100%;
+}
+/* ########## Sction Heading #########  */
+.section-heading{}
+.section-heading h2{
+    text-align: center;
+    color: #13103a;
+    font-size: 65px;
+    font-weight: 800;
+}
+.section-heading h2 span{
+    color: #ffad5a;
+}
+/* ########## Sction Heading #########  */
+/* ########## MISSION DEATIL'S #########  */
+.misson-heading{
+    margin: 30px 0px;
+}
+.mission-main{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    
+}
+.mission-deatils{
+    /* padding: 25px 15px; */
+    margin: 10px 20px;
+    padding: 35px 35px;
+    text-align: left;
+    width: 400px;
+}
+.md-bg_1{
+    
+    background-color:#edf5f6 ;
+}
+.md-bg_2{
+    
+    background-color: #ffeeee;
+}
+.md-bg_3{
+   
+    background-color: #fff4d6;
+}
+.mission-deatils img{
+    height: 130px;
+    width: 180px;
+}
+.mission-deatils h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #000000;
+}
+.mission-deatils p{
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.mission-deatils li{
+    list-style: none;
+    margin: 15px 0px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+/* ########## MISSION DEATIL'S #########  */
+
+/* <!-- ########## START PROJCET DOCUMENTION'S  ########  --> */
+.project-documention{
+    display: flex;
+  justify-content: space-between;
+}
+.process-photo{
+    height: 560px;
+    width: 980px;
+    margin: 0px 35px;
+}
+.process-photo img{
+    width: 100%;
+}
+.process-deatile{}
+.process-deatile h2{
+    font-size: 45px;
+    color: #333333;
+}
+.process-deatile h2 span{
+    padding: 2px 10px;
+    background-color: #ffad5a;
+}
+.process-deatile p{
+    font-size: 18px;
+    text-align: left;
+    width: 788px;
+}
+.process-deatile a{}
+/* <!-- ########## END PROJCET DOCUMENTION'S  ########  --> */
+/* <!-- ########## START covid table   ########  --> */
+table{
+    height: 560px;
+    width: 100%;
+    margin: 25px 0px;
+
+   }
+   table, th, td {
+       border: 1px solid black;
+     }
+     th,tr,td {
+       text-align: center;
+   }
+   table th{
+       font-size: 25px;
+       color: #13103a;
+       background-color:#e79746;
+   }
+   table tr{
+       font-size: 18px;
+   }
+   .content-table{
+       border-collapse: collapse;
+   }
+   .even_number{
+       background-color: #c9caca;
+       
+   }
+/* <!-- ########## END covid table   ########  --> */
+
+
+/* <!-- ########## START FOOTER SECTION ########  --> */
+footer{
+    padding: 50px 0px;
+    background-color: #0b0d17;
+    text-align: center;
+    color: #ffffff;
+}
+.footer-section{}
+.footer-section h2 span{
+    color: #ff5959;
+}
+.footer-section{}
+/* <!-- ########## END FOOTER SECTION ########  --> */
